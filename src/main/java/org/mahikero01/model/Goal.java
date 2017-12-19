@@ -1,10 +1,10 @@
 package org.mahikero01.model;
 
-//import org.hibernate.validator.constraints.Range;
+import org.hibernate.validator.constraints.Range;
 
 public class Goal {
 	
-	//@Range(min = 1, max = 120)
+	@Range(min = 1, max = 120)
 	private int minutes;
 
 	
